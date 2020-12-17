@@ -21,8 +21,9 @@ function handleText(textNode) {
 
 function replaceText(v)
 {
-    // Millennial
+    // Elliot Page
     v = v.replace(/\bEllen Page\b/g, "Elliot Page");    
+    v = v.replace(/\bellen page\b/g, "elliot page");    
 
     return v;
 }
